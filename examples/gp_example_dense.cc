@@ -3,6 +3,7 @@
 // All rights reserved.
 
 #include "gp.h"
+#include "gp_sparse.h"
 #include "gp_utils.h"
 
 #include <Eigen/Dense>
@@ -11,7 +12,7 @@ using namespace libgp;
 
 int main (int argc, char const *argv[])
 {
-  int n=4000, m=1000;
+  int n=400, m=100;
   double tss = 0, error, f, y;
   // initialize Gaussian process for 2-D input using the squared exponential 
   // covariance function with additive white noise.

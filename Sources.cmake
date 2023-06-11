@@ -10,10 +10,12 @@ SET(LIBGP_SRC
   src/cov_periodic_matern3_iso.cc
   src/cov_periodic.cc
   src/cov_se_ard.cc
+  src/cov_se_ard_noisy_inp.cc
   src/cov_se_iso.cc
   src/cov_sum.cc
   src/cov_prod.cc
   src/gp.cc
+  src/gp_sparse.cc
   src/gp_utils.cc
   src/sampleset.cc
   src/rprop.cc
@@ -33,10 +35,12 @@ SET(LIBGP_INTERFACES
   include/cov_periodic_matern3_iso.h
   include/cov_periodic.h
   include/cov_se_ard.h
+  include/cov_se_ard_noisy_inp.h
   include/cov_se_iso.h
   include/cov_sum.h
   include/cov_prod.h
   include/gp.h
+  include/gp_sparse.h
   include/gp_utils.h
   include/sampleset.h
   include/rprop.h

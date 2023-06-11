@@ -37,6 +37,7 @@ namespace libgp
   {
     CovarianceFunction::set_loghyper(p);
     s2 = exp(2*loghyper(0));
+//    std::cout<<"s2 = "<<s2<<"\n";
   }
   
   std::string CovNoise::to_string()

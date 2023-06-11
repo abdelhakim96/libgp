@@ -35,7 +35,7 @@ namespace libgp
   {
     return first->get(x1, x2) + second->get(x1, x2);
   }
-  
+
   void CovSum::grad(const Eigen::VectorXd &x1, const Eigen::VectorXd &x2, Eigen::VectorXd &grad)
   {
     Eigen::VectorXd grad_first(param_dim_first);
