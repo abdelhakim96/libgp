@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libgp"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\contrib\;CMake Files\examples\;CMake Files\tests\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\tests\;CMake Files\cmake-build-debug\tests\gtest\;CMake Files\cmake-build-debug\tests\gtest\tmp\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/libgp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 gp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp/fast">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/libgp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 gp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gpdense">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/gpdense" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gpdense"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gpdense/fast">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/gpdense" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gpdense/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp_example1">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/gp_example1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gp_example1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp_example1/fast">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/gp_example1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gp_example1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp_example2">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/gp_example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gp_example2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp_example2/fast">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/gp_example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gp_example2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp_example_mass_change">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/gp_example_mass_change" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gp_example_mass_change"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp_example_mass_change/fast">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/gp_example_mass_change" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gp_example_mass_change/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp_example_mass_change_history">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/gp_example_mass_change_history" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gp_example_mass_change_history"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gp_example_mass_change_history/fast">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/gp_example_mass_change_history" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 gp_example_mass_change_history/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="googletest">
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 googletest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gptest">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/gptest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/gtest/src/googletest/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 gptest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gptest/fast">
+				<Option output="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/gptest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/python2.7"/>
+					<Add directory="/usr/local/lib/python2.7/site-packages/numpy/core/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/include"/>
+					<Add directory="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/gtest/src/googletest/include"/>
+					<Add directory="/usr/local/include/eigen3"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 gptest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/examples/gp_example1.cc">
+			<Option target="gp_example1"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/examples/gp_example2.cc">
+			<Option target="gp_example2"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/examples/gp_example_dense.cc">
+			<Option target="gpdense"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/examples/gp_example_mass_change.cc">
+			<Option target="gp_example_mass_change"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/examples/gp_example_mass_change_history.cc">
+			<Option target="gp_example_mass_change_history"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/examples/test_functions.cpp">
+			<Option target="gp_example1"/>
+			<Option target="gp_example2"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/examples/test_functions.hpp">
+			<Option target="gp_example1"/>
+			<Option target="gp_example2"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cg.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_factory.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_linear_ard.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_linear_one.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_matern3_iso.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_matern5_iso.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_noise.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_periodic.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_periodic_matern3_iso.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_prod.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_rq_iso.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_se_ard.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_se_ard_noisy_inp.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_se_iso.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/cov_sum.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/gp.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/gp_sparse.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/gp_utils.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/input_dim_filter.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/rprop.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/include/sampleset.h">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cg.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_factory.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_linear_ard.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_linear_one.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_matern3_iso.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_matern5_iso.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_noise.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_periodic.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_periodic_matern3_iso.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_prod.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_rq_iso.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_se_ard.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_se_ard_noisy_inp.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_se_iso.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/cov_sum.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/gp.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/gp_sparse.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/gp_utils.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/input_dim_filter.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/rprop.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/src/sampleset.cc">
+			<Option target="gp"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/tests/gp_regression_test.cc">
+			<Option target="gptest"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/tests/log_likelihood_test.cc">
+			<Option target="gptest"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/tests/test_cov_factory.cc">
+			<Option target="gptest"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/tests/test_covariance_functions.cc">
+			<Option target="gptest"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/tests/test_gp_utils.cc">
+			<Option target="gptest"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/tests/test_optimizer.cc">
+			<Option target="gptest"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/FindEigen3.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/Sources.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/contrib/libgp.pc.in">
+			<Option virtualFolder="CMake Files\contrib\"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/tests/Sources.cmake">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/tests/gtest/tmp/googletest-mkdirs.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug\tests\gtest\tmp\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

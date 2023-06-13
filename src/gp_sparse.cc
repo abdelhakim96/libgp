@@ -110,7 +110,7 @@ namespace libgp {
     Eigen::MatrixXd Kmm(n, n), Kuu(nu, nu), Kmu(n, nu);
     std::tie(Kmm, Kuu, Kmu) = compute_KmmKuuKmu(sampleset, _sampleset);
 
-    // muu = Kmu'*inv(Kmm + Sfm)*fmh
+    // muu = Kmu'*inv(Kmm + Sfm) * fmh
     muu.resize(nu);
     // Update alpha using target values
     this->GaussianProcess::update_alpha();
@@ -123,7 +123,7 @@ namespace libgp {
     Q = Kmu.transpose()*(Kmm.selfadjointView<Eigen::Lower>().llt().solve(Kmu));
 
     Suu.setZero(nu, nu);
-//    Suu = Kuu - Q.topLeftCorner(n, n);
+    //Suu = Kuu - Q.topLeftCorner(n, n);
     // Suu = Q, to be helpful later
     Suu = Q;
 

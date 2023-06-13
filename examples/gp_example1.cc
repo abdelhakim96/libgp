@@ -7,7 +7,6 @@
 #include "gp.h"
 #include "gp_sparse.h"
 #include "gp_utils.h"
-
 #include <Eigen/Dense>
 
 using namespace libgp;
@@ -88,29 +87,6 @@ int main(int argc, char const *argv[]) {
   SparseGaussianProcess sgp(gp.get_sampleset_size(), gp);
   sgp.sparsify();
   std::cout << "sgp sample size = " << sgp.get_sampleset_size() << "\n";
-  //  for(int i = 4; i < 5; ++i) {
-  //    double x[] = {(training_points_mat[i][0] -
-  //    mean_inputs(0))/std_dev_inputs(0),
-  //                  (training_points_mat[i][1] -
-  //                  mean_inputs(1))/std_dev_inputs(1)};
-  //    double y = (training_targets_vec[i] - mean_targets)/std_dev_targets;
-  //    sgp.add_pattern(x, y);
-  //  }
-
-  //  // Check if it is important to maximize the loghyper. If we change the
-  //  loghyper, all the matrices will change! cg.maximize(&sgp, 100, 0); params
-  //  = sgp.covf().get_loghyper(); cout<<"param1_CG = "<<params<<"\n";
-
-  //  string filename = "../../examples/data/gp/gp.dat";
-  //  gp.write(const_cast<char*>(filename.c_str()));
-
-  //  GaussianProcess gp1(const_cast<char*>(filename.c_str()));
-  //  std::cout<<"gp1 mean_targets = ["<<gp1.get_sampleset()->mean_y()<<"]\n";
-  //  std::cout<<"gp1 std_dev_targets =
-  //  ["<<gp1.get_sampleset()->std_dev_y()<<"]\n"; std::cout<<"gp1 mean_inputs =
-  //  ["<<gp1.get_sampleset()->mean_x(0)<<","<<gp1.get_sampleset()->mean_x(1)<<"]\n";
-  //  std::cout<<"gp1 std_dev_inputs =
-  //  ["<<gp1.get_sampleset()->std_dev_x(0)<<","<<gp1.get_sampleset()->std_dev_x(1)<<"]\n";
 
   double points_mat[kNumTestPoints][2];
   //  std::cout<<"test_points = ";

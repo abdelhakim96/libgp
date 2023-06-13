@@ -20,6 +20,44 @@ SET(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_MODULE_PATH})
 
 FIND_PACKAGE(Eigen3 3.0.1 REQUIRED)
 
+#hakim
+
+
+# Find Python3
+
+
+# Find Python3 components
+#find_package(Python3 REQUIRED)
+
+
+#find_package(NumPy REQUIRED)
+#set(Python3_ROOT_DIR "/usr/include/python3.6")
+#find_package(Python3 REQUIRED COMPONENTS Interpreter Development)
+
+#set(PYTHON3_INCLUDE_DIR "/usr/include/python3.8")
+#set(PYTHON_INCLUDE_DIR "/usr/include/python3.8")
+
+
+#
+
+
+include_directories(/usr/include/python2.7)
+set(PYTHON3_INCLUDE_DIR "/usr/include/python2.7")
+include_directories(${Python3_INCLUDE_DIR})
+#link_directories(/usr/lib/python3.8/config-3.8-x86_64-linux-gnu)
+include_directories(/usr/local/lib/python2.7/site-packages/numpy/core/include)
+link_directories(/usr/include/python2.7)
+
+
+
+
+
+
+# Set the Python include directory
+
+# Add the Python include directory to the include paths
+
+
 # ----- Add include directories -----
 INCLUDE_DIRECTORIES(SYSTEM ${EIGEN3_INCLUDE_DIR})
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/include)
@@ -52,6 +90,8 @@ ENDIF()
 IF(BUILD_TESTS)
   ADD_SUBDIRECTORY(tests)
 ENDIF()
+
+
 
 # ----- Install -----
 INSTALL(FILES ${LIBGP_INTERFACES} DESTINATION include/gp)

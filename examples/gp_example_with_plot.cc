@@ -3,7 +3,6 @@
 
 #include <Eigen/Dense>
 #include <iostream>
-#include <Python.h>
 #include "matplotlibcpp.h"
 
 
