@@ -188,6 +188,19 @@ gpdense/fast:
 .PHONY : gpdense/fast
 
 #=============================================================================
+# Target rules for targets named sine_reg
+
+# Build rule for target.
+sine_reg: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sine_reg
+.PHONY : sine_reg
+
+# fast build rule for target.
+sine_reg/fast:
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sine_reg.dir/build.make examples/CMakeFiles/sine_reg.dir/build
+.PHONY : sine_reg/fast
+
+#=============================================================================
 # Target rules for targets named gp_example1
 
 # Build rule for target.
@@ -813,6 +826,7 @@ help:
 	@echo "... gp_example_mass_change_history"
 	@echo "... gpdense"
 	@echo "... gptest"
+	@echo "... sine_reg"
 	@echo "... src/cg.o"
 	@echo "... src/cg.i"
 	@echo "... src/cg.s"

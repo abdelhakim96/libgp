@@ -75,6 +75,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/gp.dir/DependInfo.cmake"
   "examples/CMakeFiles/gpdense.dir/DependInfo.cmake"
+  "examples/CMakeFiles/sine_reg.dir/DependInfo.cmake"
   "examples/CMakeFiles/gp_example1.dir/DependInfo.cmake"
   "examples/CMakeFiles/gp_example2.dir/DependInfo.cmake"
   "examples/CMakeFiles/gp_example_mass_change.dir/DependInfo.cmake"

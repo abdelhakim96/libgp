@@ -6,6 +6,8 @@
 #include "matplotlibcpp.h"
 
 
+//Fitting a sine wave using sparse GP and dense GP
+
 namespace plt = matplotlibcpp;
 
 using namespace libgp;

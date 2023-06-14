@@ -84,6 +84,7 @@ clean: tests/clean
 
 # Recursive "all" directory target.
 examples/all: examples/CMakeFiles/gpdense.dir/all
+examples/all: examples/CMakeFiles/sine_reg.dir/all
 examples/all: examples/CMakeFiles/gp_example1.dir/all
 examples/all: examples/CMakeFiles/gp_example2.dir/all
 examples/all: examples/CMakeFiles/gp_example_mass_change.dir/all
@@ -96,6 +97,7 @@ examples/preinstall:
 
 # Recursive "clean" directory target.
 examples/clean: examples/CMakeFiles/gpdense.dir/clean
+examples/clean: examples/CMakeFiles/sine_reg.dir/clean
 examples/clean: examples/CMakeFiles/gp_example1.dir/clean
 examples/clean: examples/CMakeFiles/gp_example2.dir/clean
 examples/clean: examples/CMakeFiles/gp_example_mass_change.dir/clean
@@ -170,6 +172,32 @@ gpdense: examples/CMakeFiles/gpdense.dir/rule
 examples/CMakeFiles/gpdense.dir/clean:
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/gpdense.dir/build.make examples/CMakeFiles/gpdense.dir/clean
 .PHONY : examples/CMakeFiles/gpdense.dir/clean
+
+#=============================================================================
+# Target rules for target examples/CMakeFiles/sine_reg.dir
+
+# All Build rule for target.
+examples/CMakeFiles/sine_reg.dir/all: CMakeFiles/gp.dir/all
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sine_reg.dir/build.make examples/CMakeFiles/sine_reg.dir/depend
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sine_reg.dir/build.make examples/CMakeFiles/sine_reg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target sine_reg"
+.PHONY : examples/CMakeFiles/sine_reg.dir/all
+
+# Build rule for subdir invocation for target.
+examples/CMakeFiles/sine_reg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/CMakeFiles 25
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/sine_reg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/CMakeFiles 0
+.PHONY : examples/CMakeFiles/sine_reg.dir/rule
+
+# Convenience name for target.
+sine_reg: examples/CMakeFiles/sine_reg.dir/rule
+.PHONY : sine_reg
+
+# clean rule for target.
+examples/CMakeFiles/sine_reg.dir/clean:
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sine_reg.dir/build.make examples/CMakeFiles/sine_reg.dir/clean
+.PHONY : examples/CMakeFiles/sine_reg.dir/clean
 
 #=============================================================================
 # Target rules for target examples/CMakeFiles/gp_example1.dir

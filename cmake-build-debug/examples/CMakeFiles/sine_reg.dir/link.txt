@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++ -DCLSQUARE -Wall -g -fPIC -rdynamic CMakeFiles/sine_reg.dir/gp_reg_sine.cc.o -o sine_reg   -L/usr/include/python2.7  -Wl,-rpath,/usr/include/python2.7 ../libgp.a -lpython2.7 

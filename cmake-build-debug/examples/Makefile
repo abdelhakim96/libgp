@@ -176,6 +176,20 @@ gpdense/fast:
 .PHONY : gpdense/fast
 
 # Convenience name for target.
+examples/CMakeFiles/sine_reg.dir/rule:
+	cd /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/sine_reg.dir/rule
+.PHONY : examples/CMakeFiles/sine_reg.dir/rule
+
+# Convenience name for target.
+sine_reg: examples/CMakeFiles/sine_reg.dir/rule
+.PHONY : sine_reg
+
+# fast build rule for target.
+sine_reg/fast:
+	cd /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sine_reg.dir/build.make examples/CMakeFiles/sine_reg.dir/build
+.PHONY : sine_reg/fast
+
+# Convenience name for target.
 examples/CMakeFiles/gp_example1.dir/rule:
 	cd /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/gp_example1.dir/rule
 .PHONY : examples/CMakeFiles/gp_example1.dir/rule
@@ -351,6 +365,30 @@ gp_example_mass_change_history.cc.s:
 	cd /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/gp_example_mass_change_history.dir/build.make examples/CMakeFiles/gp_example_mass_change_history.dir/gp_example_mass_change_history.cc.s
 .PHONY : gp_example_mass_change_history.cc.s
 
+gp_reg_sine.o: gp_reg_sine.cc.o
+.PHONY : gp_reg_sine.o
+
+# target to build an object file
+gp_reg_sine.cc.o:
+	cd /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sine_reg.dir/build.make examples/CMakeFiles/sine_reg.dir/gp_reg_sine.cc.o
+.PHONY : gp_reg_sine.cc.o
+
+gp_reg_sine.i: gp_reg_sine.cc.i
+.PHONY : gp_reg_sine.i
+
+# target to preprocess a source file
+gp_reg_sine.cc.i:
+	cd /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sine_reg.dir/build.make examples/CMakeFiles/sine_reg.dir/gp_reg_sine.cc.i
+.PHONY : gp_reg_sine.cc.i
+
+gp_reg_sine.s: gp_reg_sine.cc.s
+.PHONY : gp_reg_sine.s
+
+# target to generate assembly for a file
+gp_reg_sine.cc.s:
+	cd /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sine_reg.dir/build.make examples/CMakeFiles/sine_reg.dir/gp_reg_sine.cc.s
+.PHONY : gp_reg_sine.cc.s
+
 test_functions.o: test_functions.cpp.o
 .PHONY : test_functions.o
 
@@ -395,6 +433,7 @@ help:
 	@echo "... gp_example_mass_change"
 	@echo "... gp_example_mass_change_history"
 	@echo "... gpdense"
+	@echo "... sine_reg"
 	@echo "... gp_example1.o"
 	@echo "... gp_example1.i"
 	@echo "... gp_example1.s"
@@ -410,6 +449,9 @@ help:
 	@echo "... gp_example_mass_change_history.o"
 	@echo "... gp_example_mass_change_history.i"
 	@echo "... gp_example_mass_change_history.s"
+	@echo "... gp_reg_sine.o"
+	@echo "... gp_reg_sine.i"
+	@echo "... gp_reg_sine.s"
 	@echo "... test_functions.o"
 	@echo "... test_functions.i"
 	@echo "... test_functions.s"

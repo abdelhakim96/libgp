@@ -40,8 +40,15 @@ namespace libgp {
     
     /** Hill function. 
      *  \f$ f(\mathbf{x}) = \sin(x-y)+0.2y^3 + \cos(xy - 0.5y) \f$  */
-    static double hill(double x, double y);    
-    
+    static double hill(double x, double y);
+
+      /** Sine function.  #Modified by Hakim
+   */
+
+      static double sinewave(double x);
+
+
+
     /** Sign function.
      */
     static double sign(double x);

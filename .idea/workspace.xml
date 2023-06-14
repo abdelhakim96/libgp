@@ -12,6 +12,7 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="libgp" targetName="googletest" />
+      <config projectName="libgp" targetName="sine_reg" />
       <config projectName="libgp" targetName="gp_example1" />
       <config projectName="libgp" targetName="gp_example2" />
       <config projectName="libgp" targetName="gptest" />
@@ -28,35 +29,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be87467c-ae9a-42cc-b9cc-a6f361411246" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-75785751bb4a680f3339.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-b5495d897196008e4c4b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-11T13-52-28-0737.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp-Debug-2e91d190a26cdefc7606.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example1-Debug-066edd5cfcd6614b3eb9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example2-Debug-6a8cdc4b72bcbbf081f9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example_mass_change-Debug-f8ea3f525226115e6124.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example_mass_change_history-Debug-9145c554e3dd7b7ead9b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gpdense-Debug-1f3423fe7827ed875774.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gptest-Debug-227ed94363126317e207.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-639c40e0c90104e9c523.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-13T13-35-54-0060.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example1-Debug-b90bf168c74fe30c39e7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example2-Debug-8b8558f23e6db9421381.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example_mass_change-Debug-5b94b8c823d693e4365b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example_mass_change_history-Debug-a55d0dcd00a11c75a3ec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/src/gp_utils.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/src/gp_utils.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/gp_example1.dir/gp_example1.cc.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/gp_example1.dir/test_functions.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/gpdense.dir/gp_example_dense.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/gpdense.dir/gp_example_dense.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/gp_example1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/gpdense" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/gpdense" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/gpdense.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/gpdense.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/gpdense.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/gp_example1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/gp_example1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libgp.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libgp.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libgp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libgp.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/gp_example1.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/gp_example1.cc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/gp_example_dense.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/gp_example_dense.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/gp_example_with_plot.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/gp_example_with_plot.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gp_sparse.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/gp_sparse.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/gp_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/gp_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gp_utils.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/gp_utils.cc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,31 +75,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="CMake Application.gpdense">
+}</component>
+  <component name="RunManager" selected="CMake Application.sine_reg">
     <configuration name="gptest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libgp" TARGET_NAME="gptest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libgp" RUN_TARGET_NAME="gptest" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="googletest" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libgp" TARGET_NAME="googletest" CONFIG_NAME="Debug">
@@ -140,6 +133,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sine_reg" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="libgp" TARGET_NAME="sine_reg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="libgp" RUN_TARGET_NAME="sine_reg">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.gp" />
       <item itemvalue="CMake Application.gp_example1" />
@@ -147,6 +145,7 @@
       <item itemvalue="CMake Application.gp_example_mass_change" />
       <item itemvalue="CMake Application.gp_example_mass_change_history" />
       <item itemvalue="CMake Application.gpdense" />
+      <item itemvalue="CMake Application.sine_reg" />
       <item itemvalue="CMake Application.googletest" />
       <item itemvalue="Google Test.gptest" />
     </list>
@@ -160,7 +159,10 @@
       <option name="presentableId" value="Default" />
       <updated>1686591864849</updated>
       <workItem from="1686591866266" duration="8059000" />
-      <workItem from="1686632192819" duration="20980000" />
+      <workItem from="1686632192819" duration="22074000" />
+      <workItem from="1686664459883" duration="2532000" />
+      <workItem from="1686681496116" duration="2066000" />
+      <workItem from="1686723549341" duration="11133000" />
     </task>
     <servers />
   </component>

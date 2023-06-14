@@ -7,6 +7,10 @@
 ADD_EXECUTABLE(gpdense gp_example_dense.cc)
 TARGET_LINK_LIBRARIES(gpdense gp python2.7)
 
+
+ADD_EXECUTABLE(sine_reg gp_reg_sine.cc)
+TARGET_LINK_LIBRARIES(sine_reg gp python2.7)
+
 ADD_EXECUTABLE(gp_example1 gp_example1.cc test_functions.cpp)
 TARGET_LINK_LIBRARIES(gp_example1 gp )
 

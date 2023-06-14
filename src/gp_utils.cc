@@ -75,6 +75,14 @@ namespace libgp {
   {
     return sin(x-y)+0.2*pow(y, 3) + cos(y*(x - 0.5));
   }
+
+    double Utils::sinewave(double x)   //Modified by Hakim
+    {
+        return sin(x);
+    }
+
+
+
   
   double Utils::sign(double x) 
   {

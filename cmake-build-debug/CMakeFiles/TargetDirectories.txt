@@ -6,6 +6,7 @@
 /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/CMakeFiles/install/local.dir
 /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/CMakeFiles/install/strip.dir
 /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/CMakeFiles/gpdense.dir
+/home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/CMakeFiles/sine_reg.dir
 /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/CMakeFiles/gp_example1.dir
 /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/CMakeFiles/gp_example2.dir
 /home/hakim/Desktop/projects/GP_cpp/libgp/cmake-build-debug/examples/CMakeFiles/gp_example_mass_change.dir
