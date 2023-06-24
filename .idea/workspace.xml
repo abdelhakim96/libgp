@@ -30,28 +30,15 @@
   <component name="ChangeListManager">
     <list default="true" id="be87467c-ae9a-42cc-b9cc-a6f361411246" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-639c40e0c90104e9c523.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-13T13-35-54-0060.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example1-Debug-b90bf168c74fe30c39e7.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example2-Debug-8b8558f23e6db9421381.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example_mass_change-Debug-5b94b8c823d693e4365b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-gp_example_mass_change_history-Debug-a55d0dcd00a11c75a3ec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/src/gp_utils.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/gp.dir/src/gp_utils.cc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/gpdense.dir/compiler_depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/gpdense.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/gpdense.dir/compiler_depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/gp_example1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/gp_example1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/sine_reg.dir/compiler_depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/sine_reg.dir/compiler_depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/sine_reg.dir/compiler_depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/sine_reg.dir/compiler_depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/sine_reg.dir/gp_reg_sine.cc.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/sine_reg.dir/gp_reg_sine.cc.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/sine_reg.dir/gp_reg_sine.cc.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/CMakeFiles/sine_reg.dir/gp_reg_sine.cc.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/examples/sine_reg" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/examples/sine_reg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/libgp.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libgp.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libgp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/libgp.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/gp_example_dense.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/gp_example_dense.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/gp_reg_sine.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/gp_reg_sine.cc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/include/gp_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/include/gp_utils.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gp_utils.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/gp_utils.cc" afterDir="false" />
     </list>
@@ -163,6 +150,13 @@
       <workItem from="1686664459883" duration="2532000" />
       <workItem from="1686681496116" duration="2066000" />
       <workItem from="1686723549341" duration="11133000" />
+      <workItem from="1686944238661" duration="7190000" />
+      <workItem from="1686975286460" duration="3486000" />
+      <workItem from="1687000564408" duration="4775000" />
+      <workItem from="1687022307089" duration="2483000" />
+      <workItem from="1687112171638" duration="531000" />
+      <workItem from="1687323466032" duration="2000" />
+      <workItem from="1687341906311" duration="2986000" />
     </task>
     <servers />
   </component>

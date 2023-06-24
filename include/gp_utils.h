@@ -45,7 +45,7 @@ namespace libgp {
       /** Sine function.  #Modified by Hakim
    */
 
-      static double sinewave(double x);
+      static double sinewave(double x, double f, double mean);
 
 
 
